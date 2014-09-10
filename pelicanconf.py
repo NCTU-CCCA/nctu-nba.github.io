@@ -11,6 +11,9 @@ PATH = 'content'
 
 FEED_ALL_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+# static paths will be copied without parsing their contents
+STATIC_PATHS = ['CNAME']
+READERS = {"html": None}
 THEME = 'themes/aboutwilson'
 ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
