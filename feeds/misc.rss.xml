@@ -1,5 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>網路福利社</title><link>/</link><description></description><atom:link href="/feeds/misc.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 10 Sep 2014 13:30:00 +0800</lastBuildDate><item><title>逝去的光纖</title><link>/posts/2014/09/fiber/</link><description>&lt;p&gt;2014 年 9 月 9 日，早上到社窩的時候發現連不上網路 ...&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>網路福利社</title><link>/</link><description></description><atom:link href="/feeds/misc.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 10 Sep 2014 23:05:00 +0800</lastBuildDate><item><title>2013 社課課綱 (回顧)</title><link>/posts/2014/09/2013-course/</link><description>&lt;table border="1" class="table table-bordered docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="43%" /&gt;
+&lt;col width="57%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;課程&lt;/th&gt;
+&lt;th class="head"&gt;大綱&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;Introduction to Hackerdom&lt;/td&gt;
+&lt;td&gt;駭客文化介紹&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;How to solve problems&lt;/td&gt;
+&lt;td&gt;google skills
+StackOverflow
+man page
+提問的智慧&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Welcome to CLI&lt;/td&gt;
+&lt;td&gt;ssh/pietty
+common commands&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;FreeBSD Installation&lt;/td&gt;
+&lt;td&gt;安裝全新的 FreeBSD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;FreeBSD ports system&lt;/td&gt;
+&lt;td&gt;ports system 簡介、安裝升級移除 ports&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;真男人，就該用 vim&lt;/td&gt;
+&lt;td&gt;vim basic skill&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;git and version control&lt;/td&gt;
+&lt;td&gt;concepts of SCM
+git usage&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;TCP/IP&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Routing&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Firewall&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;The Linux World&lt;/td&gt;
+&lt;td&gt;common Linux disto
+package
+management utils&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;交大計中機房參觀&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;DNS/DHCP/ntp&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Wireless networking&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;OS concept&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Virtualization&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Security&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Introduction to Computer Hardware&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Common Service&lt;/td&gt;
+&lt;td&gt;FTP (PureFTP / vsftp)
+HTTP (Apache / nginx)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Programming in Python&lt;/td&gt;
+&lt;td&gt;&lt;p class="first"&gt;先備知識、簡介 / Hello, world / builtin types
+variables / import / common functions&lt;/p&gt;
+&lt;p&gt;boolean / if-else / for / while
+functions / file io / more about {list, dict}&lt;/p&gt;
+&lt;p class="last"&gt;class / OO concepts / build a packag&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Web&lt;/td&gt;
+&lt;td&gt;HTML / CSS / JS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">wdv4758h</dc:creator><pubDate>Wed, 10 Sep 2014 23:05:00 +0800</pubDate><guid>tag:,2014-09-10:posts/2014/09/2013-course/</guid></item><item><title>逝去的光纖</title><link>/posts/2014/09/fiber/</link><description>&lt;p&gt;2014 年 9 月 9 日，早上到社窩的時候發現連不上網路 ...&lt;/p&gt;
 &lt;p&gt;最後的結果是要換社窩的光纖，可是這條是拉很長過來的，目前計中現有的光纖沒有這麼長的，所以還要等一陣子 Q_Q&lt;/p&gt;
 &lt;p&gt;底下社團機器的網路都出不去，社團 domain 就這麼與網路世界分離 ...&lt;/p&gt;
 &lt;p&gt;所以就在今天 (9/10) 臨時弄個簡單的網頁充當社團網站 (?&lt;/p&gt;
