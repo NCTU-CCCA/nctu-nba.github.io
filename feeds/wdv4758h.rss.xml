@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>網路福利社</title><link>/</link><description></description><atom:link href="/feeds/wdv4758h.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 10 Sep 2014 23:05:00 +0800</lastBuildDate><item><title>2013 社課課綱 (回顧)</title><link>/posts/2014/09/2013-course/</link><description>&lt;table border="1" class="table table-bordered docutils"&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>網路福利社</title><link>/</link><description></description><atom:link href="/feeds/wdv4758h.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 10 Sep 2014 23:30:00 +0800</lastBuildDate><item><title>迎新茶會</title><link>/posts/2014/09/2014-new-start/</link><description>&lt;img alt="迎新" src="/img/宣傳單.jpg" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">wdv4758h</dc:creator><pubDate>Wed, 10 Sep 2014 23:30:00 +0800</pubDate><guid>tag:,2014-09-10:posts/2014/09/2014-new-start/</guid></item><item><title>Open Source, Open Your Mind</title><link>/posts/2014/09/open-source/</link><description>&lt;img alt="Open Source" src="/img/open-source.jpg" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">wdv4758h</dc:creator><pubDate>Wed, 10 Sep 2014 23:04:00 +0800</pubDate><guid>tag:,2014-09-10:posts/2014/09/open-source/</guid></item><item><title>2013 社課課綱 (回顧)</title><link>/posts/2014/09/2013-course/</link><description>&lt;table border="1" class="table table-bordered docutils"&gt;
 &lt;colgroup&gt;
 &lt;col width="43%" /&gt;
 &lt;col width="57%" /&gt;
@@ -88,7 +90,7 @@ functions / file io / more about {list, dict}&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">wdv4758h</dc:creator><pubDate>Wed, 10 Sep 2014 23:05:00 +0800</pubDate><guid>tag:,2014-09-10:posts/2014/09/2013-course/</guid></item><item><title>逝去的光纖</title><link>/posts/2014/09/fiber/</link><description>&lt;p&gt;2014 年 9 月 9 日，早上到社窩的時候發現連不上網路 ...&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">wdv4758h</dc:creator><pubDate>Wed, 10 Sep 2014 22:05:00 +0800</pubDate><guid>tag:,2014-09-10:posts/2014/09/2013-course/</guid></item><item><title>逝去的光纖</title><link>/posts/2014/09/fiber/</link><description>&lt;p&gt;2014 年 9 月 9 日，早上到社窩的時候發現連不上網路 ...&lt;/p&gt;
 &lt;p&gt;最後的結果是要換社窩的光纖，可是這條是拉很長過來的，目前計中現有的光纖沒有這麼長的，所以還要等一陣子 Q_Q&lt;/p&gt;
 &lt;p&gt;底下社團機器的網路都出不去，社團 domain 就這麼與網路世界分離 ...&lt;/p&gt;
 &lt;p&gt;所以就在今天 (9/10) 臨時弄個簡單的網頁充當社團網站 (?&lt;/p&gt;
