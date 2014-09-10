@@ -1,0 +1,12 @@
+#Custom
+output/
+cache/
+
+*.pid
+
+#swap
+*.swp
+
+#Python
+*.py[cod]
+__pycache__/*
