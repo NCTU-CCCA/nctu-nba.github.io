@@ -1,0 +1,164 @@
+:title: 2014-09-29 分享紀錄
+:slug: 2014-09-29-share
+:date: 2014-09-29 22:05
+:category: Misc
+:author: wdv4758h
+:summary: 分享紀錄 ~
+
+自介
+========================================
+
+- dv
+- agold
+- sky
+- wen
+- allen
+- kevin
+- pi
+- jackliuxx
+- kai
+- cowbon
+- wayne
+- fishlover
+- iblis
+- susu
+- Namor
+
+dv - Garbage collection
+========================================
+
+- 記憶體管理
+    * C: malloc/free
+    * C++: new/delete
+
+- Garbage Collection
+    * Reference count
+        + 把每塊新的 memory 都加上一個數字，代表有幾個人 reference 到
+        + 歸零的時候就回收
+        + 缺點
+            * cycle
+            * 一次回收一大塊的時候會 lag
+    * Tracing
+        + 定時檢查每塊記憶體有沒有人在用
+        + Generational GC
+            * 有通過檢查的記憶體會被升級成 VIP，被檢查的頻率會比較低
+                + Nursery : young / Tenured: old
+
+關鍵字
+------------------------------
+
+-   `Generational Garbage Collection in Firefox <https://hacks.mozilla.org/2014/09/generational-garbage-collection-in-firefox/>`_
+    *   SpiderMonkey
+
+Pellaeon - juiker
+========================================
+
+-   某官員委託工研院研發，用來取代 Line
+
+-   "特色"
+    -   沒加密
+    -   後來改善，已加密，但沒有檢查 SSL/TLS 憑證可靠性 (你可以自己簽一個，然後說是合法的)
+
+-   SSL/TLS 簡介
+    -   非對稱式加密法
+
+-   已知不安全的 CA
+    -   CNNIC
+
+關鍵字
+------------------------------
+
+-   對稱式加密法
+-   非對稱式加密法
+-   數位簽章
+-   CA: 簽憑證的單位
+-   Public Key Infrastructure
+-   Web of Trust
+
+舒舒 - Designated Initializer
+========================================
+
+-   在 ANSI C (C89/C90) 裡面傳統的初始化方式
+
+.. code-block:: c
+
+    int main  () {
+        int a[100] = {};
+        a[50] = 1;
+    }
+
+-   在 C99 裡面可以用 designated initializer
+
+.. code-block:: c
+
+    int main () {
+        int a[100] = { [50] = 1 };
+    }
+
+-   C 語言的聖經: K&R，當年它就是 C 的規範
+
+.. code-block:: c
+
+    int foo (a, b)
+        int a;
+        int b;
+    {
+    }
+
+-   C99 支援 variable sized array
+
+.. code-block:: c
+
+    int main () {
+        int n;
+        scanf("%d", &n);
+
+        // the size of ary will not known at compile time
+        int ary[n];
+    }
+
+-   在 C99 裡面可以用 designated initializer (for struct)
+
+.. code-block:: c
+
+    struct point3D {
+        double x;
+        double y;
+        double z;
+    };
+
+    struct point3D a      = { .y = 1 };
+    struct point3D b[100] = { [50].y = 1 };
+
+關鍵字
+------------------------------
+
+-   K&R C
+-   ANSI C (C89/C90),
+-   C99
+-   C11
+-   gcc
+    * GNU gcc 預設支援 C89
+    * -std=C99 參數可以使用 C99 規範
+-   clang/llvm
+    * clang 預設支援 C99
+- `The shockingly obsolete code of bash <http://blog.erratasec.com/2014/09/the-shockingly-bad-code-of-bash.html>`_
+- `Designated Initializers <https://gcc.gnu.org/onlinedocs/gcc/Designated-Inits.html>`_
+
+Kevin - 電子鎖
+========================================
+
+-   去了一趟清大，買個門閂鎖，買個馬達，和 Arduino
+
+其他 - captcha
+========================================
+
+-   有人破解 captcha，把匿名發文的粉絲專頁弄壞了
+
+-   有 captcha 是 shell command，要先貼到 shell 裡面再貼回結果
+
+-   有 captcha 是 SQL injection
+
+-   有 captcha 是拼圖
+
+-   外包給大量人力解 captcha

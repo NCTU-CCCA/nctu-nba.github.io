@@ -1,4 +1,4 @@
-:title: 2014 分享紀錄
+:title: 2014-09-22 分享紀錄
 :slug: 2014-share
 :date: 2014-09-22 22:05
 :modified: 2014-09-22 22:05
@@ -33,7 +33,5 @@
 ------------------------------
 
 - `A (Relatively Easy To Understand) Primer on Elliptic Curve Cryptography <http://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/>`_
-
-
 
 .. _CloudFlare Keyless SSL: http://blog.cloudflare.com/keyless-ssl-the-nitty-gritty-technical-details/
