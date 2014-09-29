@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>2014-09-29 分享紀錄 — 網路福利社</title>
+	<meta name="description" content="Title: 2014-09-29 分享紀錄; Date: 2014-09-29; Author: wdv4758h">
+	<meta name="author" content="wdv4758h">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+		<script src="/theme/html5.js"></script>
+		<![endif]-->
+	<link href="/theme/css/ipython.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/simplex/bootstrap.min.css" rel="stylesheet">
+	<link href="/theme/css/local.css" rel="stylesheet">
+	<link href="/theme/css/pygments.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<div class="page-header">
+		<h1><a href="/">網路福利社</a>
+			<br><small>Open Source, Open Your Mind</small></h1>
+	</div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+<div class="article" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="text-center article-header">
+		<h1 itemprop="name headline" class="article-title">2014-09-29 分享紀錄</h1>
+		<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+			<h4 itemprop="name">wdv4758h</h4>
+		</span>
+        <span itemprop="publish">publish: <time datetime="2014-09-29T22:05:00" itemprop="datePublished">Mon 29 September 2014</time></span>
+	</div>
+	<div>
+		Category:
+		<span itemprop="articleSection">
+			<a href="/category/misc.html" rel="category">Misc</a>
+		</span>
+	</div>
+	<div itemprop="articleBody" class="article-body"><div class="section" id="id1">
+<h2>自介</h2>
+<ul class="simple">
+<li>dv</li>
+<li>agold</li>
+<li>sky</li>
+<li>wen</li>
+<li>allen</li>
+<li>kevin</li>
+<li>pi</li>
+<li>jackliuxx</li>
+<li>kai</li>
+<li>cowbon</li>
+<li>wayne</li>
+<li>fishlover</li>
+<li>iblis</li>
+<li>susu</li>
+<li>Namor</li>
+</ul>
+</div>
+<div class="section" id="dv-garbage-collection">
+<h2>dv - Garbage collection</h2>
+<ul>
+<li><dl class="first docutils">
+<dt>記憶體管理</dt>
+<dd><ul class="first last simple">
+<li>C: malloc/free</li>
+<li>C++: new/delete</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Garbage Collection</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>Reference count</dt>
+<dd><ul class="first last">
+<li><p class="first">把每塊新的 memory 都加上一個數字，代表有幾個人 reference 到</p>
+</li>
+<li><p class="first">歸零的時候就回收</p>
+</li>
+<li><dl class="first docutils">
+<dt>缺點</dt>
+<dd><ul class="first last simple">
+<li>cycle</li>
+<li>一次回收一大塊的時候會 lag</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Tracing</dt>
+<dd><ul class="first last">
+<li><p class="first">定時檢查每塊記憶體有沒有人在用</p>
+</li>
+<li><dl class="first docutils">
+<dt>Generational GC</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>有通過檢查的記憶體會被升級成 VIP，被檢查的頻率會比較低</dt>
+<dd><ul class="first last simple">
+<li>Nursery : young / Tenured: old</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="section" id="id2">
+<h3>關鍵字</h3>
+<ul class="simple">
+<li><a class="reference external" href="https://hacks.mozilla.org/2014/09/generational-garbage-collection-in-firefox/">Generational Garbage Collection in Firefox</a>
+*   SpiderMonkey</li>
+</ul>
+</div>
+</div>
+<div class="section" id="pellaeon-juiker">
+<h2>Pellaeon - juiker</h2>
+<ul class="simple">
+<li>某官員委託工研院研發，用來取代 Line</li>
+<li>&quot;特色&quot;
+-   沒加密
+-   後來改善，已加密，但沒有檢查 SSL/TLS 憑證可靠性 (你可以自己簽一個，然後說是合法的)</li>
+<li>SSL/TLS 簡介
+-   非對稱式加密法</li>
+<li>已知不安全的 CA
+-   CNNIC</li>
+</ul>
+<div class="section" id="id3">
+<h3>關鍵字</h3>
+<ul class="simple">
+<li>對稱式加密法</li>
+<li>非對稱式加密法</li>
+<li>數位簽章</li>
+<li>CA: 簽憑證的單位</li>
+<li>Public Key Infrastructure</li>
+<li>Web of Trust</li>
+</ul>
+</div>
+</div>
+<div class="section" id="designated-initializer">
+<h2>舒舒 - Designated Initializer</h2>
+<ul class="simple">
+<li>在 ANSI C (C89/C90) 裡面傳統的初始化方式</li>
+</ul>
+<div class="highlight"><pre><span class="kt">int</span> <span class="nf">main</span>  <span class="p">()</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">a</span><span class="p">[</span><span class="mi">100</span><span class="p">]</span> <span class="o">=</span> <span class="p">{};</span>
+    <span class="n">a</span><span class="p">[</span><span class="mi">50</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+<ul class="simple">
+<li>在 C99 裡面可以用 designated initializer</li>
+</ul>
+<div class="highlight"><pre><span class="kt">int</span> <span class="nf">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">a</span><span class="p">[</span><span class="mi">100</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span> <span class="p">[</span><span class="mi">50</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span> <span class="p">};</span>
+<span class="p">}</span>
+</pre></div>
+<ul class="simple">
+<li>C 語言的聖經: K&amp;R，當年它就是 C 的規範</li>
+</ul>
+<div class="highlight"><pre><span class="kt">int</span> <span class="n">foo</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+    <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">b</span><span class="p">;</span>
+<span class="p">{</span>
+<span class="p">}</span>
+</pre></div>
+<ul class="simple">
+<li>C99 支援 variable sized array</li>
+</ul>
+<div class="highlight"><pre><span class="kt">int</span> <span class="nf">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d&quot;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">);</span>
+
+    <span class="c1">// the size of ary will not known at compile time</span>
+    <span class="kt">int</span> <span class="n">ary</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+<span class="p">}</span>
+</pre></div>
+<ul class="simple">
+<li>在 C99 裡面可以用 designated initializer (for struct)</li>
+</ul>
+<div class="highlight"><pre><span class="k">struct</span> <span class="n">point3D</span> <span class="p">{</span>
+    <span class="kt">double</span> <span class="n">x</span><span class="p">;</span>
+    <span class="kt">double</span> <span class="n">y</span><span class="p">;</span>
+    <span class="kt">double</span> <span class="n">z</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="k">struct</span> <span class="n">point3D</span> <span class="n">a</span>      <span class="o">=</span> <span class="p">{</span> <span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="mi">1</span> <span class="p">};</span>
+<span class="k">struct</span> <span class="n">point3D</span> <span class="n">b</span><span class="p">[</span><span class="mi">100</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span> <span class="p">[</span><span class="mi">50</span><span class="p">].</span><span class="n">y</span> <span class="o">=</span> <span class="mi">1</span> <span class="p">};</span>
+</pre></div>
+<div class="section" id="id4">
+<h3>關鍵字</h3>
+<ul class="simple">
+<li>K&amp;R C</li>
+<li>ANSI C (C89/C90),</li>
+<li>C99</li>
+<li>C11</li>
+<li>gcc
+* GNU gcc 預設支援 C89
+* -std=C99 參數可以使用 C99 規範</li>
+<li>clang/llvm
+* clang 預設支援 C99</li>
+<li><a class="reference external" href="http://blog.erratasec.com/2014/09/the-shockingly-bad-code-of-bash.html">The shockingly obsolete code of bash</a></li>
+<li><a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/Designated-Inits.html">Designated Initializers</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="kevin">
+<h2>Kevin - 電子鎖</h2>
+<ul class="simple">
+<li>去了一趟清大，買個門閂鎖，買個馬達，和 Arduino</li>
+</ul>
+</div>
+<div class="section" id="captcha">
+<h2>其他 - captcha</h2>
+<ul class="simple">
+<li>有人破解 captcha，把匿名發文的粉絲專頁弄壞了</li>
+<li>有 captcha 是 shell command，要先貼到 shell 裡面再貼回結果</li>
+<li>有 captcha 是 SQL injection</li>
+<li>有 captcha 是拼圖</li>
+<li>外包給大量人力解 captcha</li>
+</ul>
+</div>
+</div>
+	<hr>
+	<h2>Comments</h2>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'nctu-nba';
+    var disqus_title = '2014-09-29 分享紀錄';
+	var disqus_identifier = 'posts/2014/09/2014-09-29-share/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+		</div>
+	</div> 	<!-- <hr> -->
+</div> <!-- /container -->
+<footer class="aw-footer bg-danger">
+	<div class="container"> <!-- footer -->
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+					<div class="col-md-3">
+						<h4>Navigation</h4>
+						<ul class="list-unstyled my-list-style">
+							<li><a href="">網路福利社</a></li>
+							<li><a href="/feeds/all.rss.xml"><i class="fa fa-rss "></i> rss</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4>Author</h4>
+						<ul class="list-unstyled my-list-style">
+							<li><a href="https://nctu-nba.github.io">Homepage</a></li>
+							<li><a href="https://github.com/NCTU-NBA">Github</a></li>
+							<li><a href="https://www.facebook.com/groups/169489583068057/">Facebook</a></li>
+							<li><a href="https://groups.google.com/forum/#!forum/nctu_nba">Google Groups</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4>Categories</h4>
+						<ul class="list-unstyled my-list-style">
+                            <li><a href="/category/misc.html">Misc (7)</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4>Links</h4>
+						<ul class="list-unstyled my-list-style">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center center-block aw-bottom">
+			<p>&copy; wdv4758h 2014</p>
+			<p>Powered by Pelican</p>
+		</div>
+	</div>
+</div>
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$("div.collapseheader").click(function () {
+		$header = $(this).children("span").first();
+		$codearea = $(this).children(".input_area");
+		$codearea.slideToggle(500, function () {
+			$header.text(function () {
+				return $codearea.is(":visible") ? "Collapse Code" : "Expand Code";
+			});
+		});
+	});
+});
+</script>
+</body>
+</html>
