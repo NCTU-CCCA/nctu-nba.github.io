@@ -247,7 +247,15 @@ f(*sample) =&amp;gt; f(1, 2, 3)
 &lt;li&gt;Windows 一年重灌一次(?)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">wdv4758h</dc:creator><pubDate>Tue, 14 Oct 2014 00:35:00 +0800</pubDate><guid>tag:,2014-10-14:posts/2014/10/2014-10-13-share/</guid></item><item><title>2014-09-29 分享紀錄</title><link>/posts/2014/09/2014-09-29-share/</link><description>&lt;div class="section" id="id1"&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">wdv4758h</dc:creator><pubDate>Tue, 14 Oct 2014 00:35:00 +0800</pubDate><guid>tag:,2014-10-14:posts/2014/10/2014-10-13-share/</guid></item><item><title>2014-10-06 ruinland's kano 開箱</title><link>/posts/2014/10/2014-10-06-kano/</link><description>&lt;p&gt;今天 (10/6) 剛好 ruinland 的 kano 寄來了，所以就開箱來看看 XD (影片在他 FB)&lt;/p&gt;
+&lt;div class="section" id="kano"&gt;
+&lt;h2&gt;什麼是 Kano 呢？&lt;/h2&gt;
+&lt;p&gt;Kano 是一個給小朋友玩的小電腦，硬體為 Raspberry Pi，OS 為 Debian-based 的，
+改過介面且加了一些自己做的軟體，可以到 &lt;a class="reference external" href="http://www.kano.me/"&gt;官網&lt;/a&gt; 看看。&lt;/p&gt;
+&lt;p&gt;Kano 去年在 Kickstarter 上募資，今年出品， &lt;a class="reference external" href="https://www.kickstarter.com/projects/alexklein/kano-a-computer-anyone-can-make"&gt;這是 Kickstarted 上的連結&lt;/a&gt; ，如果想看一些他們寫的 code 可以到 &lt;a class="reference external" href="https://github.com/KanoComputing"&gt;他們 GitHub&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;另外這裡有 iThome 上 &lt;a class="reference external" href="http://www.ithome.com.tw/news/91408"&gt;簡短的介紹文&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">wdv4758h</dc:creator><pubDate>Thu, 09 Oct 2014 22:05:00 +0800</pubDate><guid>tag:,2014-10-09:posts/2014/10/2014-10-06-kano/</guid></item><item><title>2014-09-29 分享紀錄</title><link>/posts/2014/09/2014-09-29-share/</link><description>&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;自介&lt;/h2&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;dv&lt;/li&gt;
