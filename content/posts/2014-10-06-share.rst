@@ -1,0 +1,18 @@
+:title: 2014-10-06 ruinland's kano 開箱
+:slug: 2014-10-06-kano
+:date: 2014-10-09 22:05
+:category: Misc
+:author: wdv4758h
+:summary: Kano ~
+
+今天 (10/6) 剛好 ruinland 的 kano 寄來了，所以就開箱來看看 XD (影片在他 FB)
+
+什麼是 Kano 呢？
+------------------------------
+
+Kano 是一個給小朋友玩的小電腦，硬體為 Raspberry Pi，OS 為 Debian-based 的，
+改過介面且加了一些自己做的軟體，可以到 `官網 <http://www.kano.me/>`_ 看看。
+
+Kano 去年在 Kickstarter 上募資，今年出品， `這是 Kickstarted 上的連結 <https://www.kickstarter.com/projects/alexklein/kano-a-computer-anyone-can-make>`_ ，如果想看一些他們寫的 code 可以到 `他們 GitHub <https://github.com/KanoComputing>`_ 。
+
+另外這裡有 iThome 上 `簡短的介紹文 <http://www.ithome.com.tw/news/91408>`_
