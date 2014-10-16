@@ -1,0 +1,217 @@
+:title: 2014-10-13 分享紀錄
+:slug: 2014-10-13-share
+:date: 2014-10-14 00:35
+:category: Misc
+:author: wdv4758h
+:summary: 分享紀錄 ~
+
+紀錄 by pi
+
+自介們
+======
+
+.. table::
+    :class: table table-bordered
+
+    +--------------+-----------+--------------+------------+-----------+-----------+
+    | dv           | 林德貞    | pi           | jackyliuxx | 陳逸群    | 王建棊    |
+    +==============+===========+==============+============+===========+===========+
+    | - 資工大三   | - 電物 07 | - 資工碩     | - 應數大一 | - 資工 07 | - 生科 07 |
+    |              |           |              |            |           |           |
+    | - Arch Linux |           | - FreeBSD    | - ~        |           |           |
+    | - Vim        |           | - Vim        |            |           |           |
+    | - Python     |           | - Python     |            |           |           |
+    |              |           | - JavaScript |            |           |           |
+    +--------------+-----------+--------------+------------+-----------+-----------+
+
+.. table::
+    :class: table table-bordered
+
+    +------------+--------------+------------+----------------------------+
+    | Pellaeon   | Sky          | 陳昱維     | 莫然 Namor                 |
+    +============+==============+============+============================+
+    | - PHP      | - 資工大三   | - 資工大三 | - Python/C/C++             |
+    | - FreeBSD  | - 系計中助教 |            | - Vim/emacs                |
+    | - Ubuntu   |              |            | - data structure/Algorithm |
+    | - 師大附中 |              |            | - ACM                      |
+    |            |              |            |                            |
+    |            |              |            |                            |
+    +------------+--------------+------------+----------------------------+
+
+.. table::
+    :class: table table-bordered
+
+    +-------------------+------------+
+    | Sunset (孫誠)     | susu       |
+    +===================+============+
+    | - PHP, JavaScript | - C/Python |
+    | - 前端設計        | - Vim      |
+    | - C/C++           | - debugger |
+    | - node.js         |            |
+    | - Django          |            |
+    | - 光工大一        |            |
+    +-------------------+------------+
+
+活動介紹
+========
+
+和社課不一樣，有學到什麼都可以拿出來分享，很 Free 的
+
+廣告
+====
+
+下星期的分享會將會和 sitcon(學生計算機年會) 合辦，sitcon(學生計算機年會) 是給學生的 conference，目的是提供一個交流和發表的平台，讓想要分享自己在玩的成果有個機會發表，不一定要很專業才能上台，也不一定要有做出東西才能上台，可以是經驗分享。
+
+這個活動從 2013 年開始辦，在每年的 3 月舉辦，門票免費，我們會在社團裡面揪團。
+sitcon 定期聚目前只有台北有，兩個星期一次，形式和我們這裡的差不多。
+下個星期會試辦新竹區的定期聚，因為性質類似，於是和我們合作。
+地點將會在工四地下室外面(有木桌木椅很潮的地方)。
+活動資訊會貼在 Facebook 社團裡面。
+
+2015 的 sitcon 主題：The True Hackers，要讓大家知道什麼是駭客，駭客偉大的情操。
+可能，可能，可能，會找黑客列傳的中文譯者 jedi 來講。
+可能會請林雨蒼來分享言論自由相關的見解。
+可能會再請 Allen Own 來請一些資安的技術。
+
+欲知詳情，請至 http://sitcon.org
+
+對電腦有興趣的人都歡迎來。
+
+(以上廣告由 2014 & 2015 sitcon 議程組長 Pellaeon 提供)
+
+分享時間
+========
+
+(dv 的小題目時間)
+-----------------
+
+把
+
+.. code-block:: python
+
+    data = [[0, 1, 2, 3],
+            [0, 1, 2, 3],
+            [0, 1, 2, 3]]
+
+轉換(transpose)成
+
+.. code-block:: python
+
+    data = [[0, 0, 0],
+            [1, 1, 1],
+            [2, 2, 2],
+            [3, 3, 3]]
+
+(插曲: 有人 iPhone 掉啦，換 iPhone6 囉)
+
+Python 的解法 (登登):
+
+.. code-block:: python
+
+    zip(*data)
+
+Python 的內建函式 ``zip()`` 可以接受 iterable 的東西(可以一個一個拿出來的東西)，並且把這些東西像拉鏈一樣對齊
+
+Python 的 ``*`` 是 unpack
+
+::
+
+    sample = [1, 2, 3]
+    f(*sample) => f(1, 2, 3)
+
+list 裡面的東西可以改，tuple 裡面的東西不能改 ( " ``list(zip(*data))`` " 出來後內層的是 tuple)
+
+``zip()`` 接受的東西如果不一樣長，會以最短的為主，比較長的東西後面會被切掉
+
+延伸，把
+
+.. code-block:: python
+
+    data = [[0, 1, 2, 3],
+            [0, 1, 2],
+            [0, 1]]
+
+轉換成
+
+.. code-block:: python
+
+    data = [[0, 0, 0],
+            [1, 1, 1],
+            [2, 2],
+            [3]]
+
+在 Python 裡的解法
+
+.. code-block:: python
+
+    import itertools
+    itertools.zip_longest(*data)
+
+會產生
+
+.. code-block:: python
+
+    data = [(0, 0, 0),
+            (1, 1, 1),
+            (2, 2, None),
+            (3, None, None)]
+
+itertools.zip_longest 還可以傳一些奇怪的參數讓它補不同的值
+
+susu 的分享時間
+---------------
+
+在 Windows 上，如果想要強制結束一支程式，需要開工作管理員，然後強制結束(之類的)。
+
+在 UNIX-like 的系統上可以用 kill 指令
+
+.. code-block:: sh
+
+    kill -9 [pid]
+
+``-9`` 代表 sigkill，是個無論如何都要 kill 掉的訊號
+``-15`` 代表 sigterm，是「通知某 process 停止(但那支 process 怎麼處理是另一回事)」
+
+每個程式可以利用 signal handler 來決定「收到什麼 signal 要怎麼處理」(除了sigkill 以外)
+
+問題: signal 都是對 process 發送的，如果有支程式是 multi-process 的，要怎麼發 signal 給它呢？
+
+答案：通常 process 在執行的時候，都會有一支本體，再由本體去 fork 出不同的 process，這支 process 會是 process tree 最上面的 parent
+
+如果想對某隻 process 發出 signal，可以去找它的 pidfile，pidfile 的內容就是它最上層 parent 的 pid
+例如 apache 的 pidfile 叫做 httpd.pid
+
+``service apache [restart|stop]`` 其實都是 signal， ``restart`` 是 ``HUP`` ， ``stop`` 是 ``term``
+
+在 C 裡面比較常遇到的可能是 segmentation fault 的 signal (手癢亂摸的時候 OS 會送這個 signal 給 process)
+
+- 關鍵字
+
+  * man nohup
+  * man 7 signal
+
+題材募集
+========
+
+- Python tutorial (by dv)
+
+  * `Python Tutorial 第一堂（1）揭開序幕 <http://www.codedata.com.tw/python/python-tutorial-the-1st-class-1-preface>`_
+  * `Learn Python the Hard Way <http://learnpythonthehardway.org/book/>`_
+  * Programming with Python
+
+    + `Basic <https://speakerdeck.com/mosky/programming-with-python-basic>`_
+    + `Adv. <https://speakerdeck.com/mosky/programming-with-python-adv>`_
+
+  * 社團去年和前年的社課講義
+  * 可以找我快速入門 (?
+
+- Pellaeon: 有經驗的話去找別人寫的 code 來看就可以了，有看到不會的就查，高階語言的入門都差不多，除非你真的想去深入研究語言本身才會需要去啃文件
+
+閒聊
+====
+
+- Java 和 JavaScript 的相關性就像 "熱狗" 和 "狗"
+
+- Emscripten 可以把很多東西轉成 JavaScript
+
+- Windows 一年重灌一次(?)
